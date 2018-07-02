@@ -58,7 +58,7 @@
 				</intent-filter>
 			</service>
 		</config-file>
-		<config-file target="res/xml/config.xml" parent="/*">
+		<config-file target="app/src/main/res/xml/config.xml" parent="/*">
 			<feature name="FCMPlugin" >
 					<param name="android-package" value="com.gae.scaffolder.plugin.FCMPlugin"/>
 					<param name="onload" value="true" />
