@@ -40,7 +40,7 @@
 	
     <!-- ANDROID CONFIGURATION -->
     <platform name="android">
-		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+		<config-file target="app/src/main/AndroidManifest.xml" parent="/manifest/application">
 			<activity android:exported="true" android:name="com.gae.scaffolder.plugin.FCMPluginActivity" android:launchMode="singleTop">
 				<intent-filter>   
 					<action android:name="FCM_PLUGIN_ACTIVITY" />  
